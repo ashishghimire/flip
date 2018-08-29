@@ -1,0 +1,120 @@
+
+div.printable-area-box {
+    margin-top: -2px;
+    background: transparent;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-bottom: 0;
+    color: #fff
+}
+
+div.printable-area-box, div.printable-area-toolbar {
+    position: absolute;
+    box-sizing: content-box;
+    margin-left: -2px;
+    transition: all .4s ease
+}
+
+div.printable-area-toolbar {
+    font-size: .7em;
+    width: calc(100% + 4px - 20px);
+    padding-right: 20px;
+    bottom: -2em;
+    background-color: #fff;
+    height: 2em;
+    line-height: 2em
+}
+
+.printable-area-toolbar .printable-area-label {
+    display: block;
+    margin-left: .25em;
+    width: calc(100% - .25em);
+    overflow: hidden;
+    white-space: nowrap
+}
+
+div.printable-area-zoom {
+    width: 14px;
+    height: 14px;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    right: 3px;
+    cursor: pointer
+}
+
+img.printable-area-zoom-image {
+    position: absolute;
+    transition: opacity .4s ease
+}
+
+.zoom-in {
+    cursor: zoom-in
+}
+
+.zoom-out {
+    cursor: zoom-out
+}
+
+.zero-opacity {
+    opacity: 0
+}
+
+div.printable-area-exclusion {
+    position: absolute;
+    transition: all .4s ease
+}
+
+img.ghost-image {
+    background-size: 530px 630px !important
+}
+
+.printable-area-box {
+    word-break: break-all;
+}
+
+/*-----------------------------------*/
+/**
+ * Marching ants border
+ */
+@keyframes marching-ants-1 {
+    0% {
+        background-position: 0 0, 0 100%, 0 0, 100% 0
+    }
+    to {
+        background-position: 16px 0, -16px 100%, 0 -16px, 100% 16px
+    }
+}
+
+.marching-ants {
+    padding: 1px;
+    background-size: 8px 1px, 8px 1px, 1px 8px, 1px 8px;
+    background-position: 0 0, 0 100%, 0 0, 100% 0;
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    animation: marching-ants-1 .7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused
+}
+
+.marching-ants.marching, .marching-ants:hover {
+    animation-play-state: running
+}
+
+/*.marching-ants.reverse {*/
+/*animation-direction: reverse*/
+/*}*/
+
+div.edit-box {
+    position: absolute;
+    transform-origin: 0 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(90deg, #ddd 50%, #333 0), linear-gradient(90deg, #ddd 50%, #333 0), linear-gradient(180deg, #ddd 50%, #333 0), linear-gradient(180deg, #ddd 50%, #333 0);
+    background-color: transparent;
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
