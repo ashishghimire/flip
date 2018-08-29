@@ -8,4 +8,4 @@ var vm = new Vue({
 });
 
 
-$( ".draggable" ).draggable({containment: "parent"});
+$( ".draggable" ).draggable({containment: ".printable-area-box"});
