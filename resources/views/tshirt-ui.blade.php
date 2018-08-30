@@ -4,11 +4,12 @@
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="{{ asset('js/jquery-3.3.1.js') }}"></script>
     <script src="{{ asset('js/jquery-ui.js') }}"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="{{ asset('js/jquery.ui.rotatable.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.js') }}"></script>
     <script src="{{ asset('js/vue.js') }}"></script>
 </head>
 <body>
@@ -41,6 +42,14 @@
     </div>
 </div>
 </div>
+
+
+{{--<div class="box-wrapper">--}}
+    {{--<div class="box">--}}
+    {{--</div>--}}
+{{--</div>--}}
+
+
 <script src="{{ asset('js/script.js') }}"></script>
 </body>
 </html>

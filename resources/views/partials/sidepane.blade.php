@@ -4,7 +4,10 @@
         {{--<label for="Name" id="NameLabel">Name</label>--}}
         {{--<input type="text" name="Name" id="NameInput" v-model="NameModel">--}}
 
-        <textarea v-model="message"  placeholder="add multiple lines"></textarea>
+        <textarea class="tshirt-input" v-model="message"  placeholder="add multiple lines"></textarea>
+        {{--<textarea class="tshirt-input" v-bind:value="message"  placeholder="add multiple lines"></textarea>--}}
+
+
     </div>
 <div class="form-group">
     <label for="exampleFormControlSelect1">Choose a font</label>
