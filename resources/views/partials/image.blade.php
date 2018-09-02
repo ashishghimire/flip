@@ -1,16 +1,23 @@
-<img class="ghost-image"
-     src="https://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_front.png">
+<div class="container-fluid" align="center" id='dimension' style='width: 600px'>
+    <span style='border:1px black solid; font-size:12px;'></span>
+</div>
+<div class="image-container">
+    <img class="ghost-image"
+         src="https://d1b2zzpxewkr9z.cloudfront.net/images/products/apparel/product_type_1_front.png">
+</div>
 <div class="printable-area-box"
      style="left: 169px; top: 98px; width: 215px; height: 330px; border-color: rgba(0, 0, 0, 0.3) !important; color: rgb(255, 255, 255) !important;">
-    {{--<tshirt-text v-show="message"></tshirt-text>--}}
+    <canvas id="tshirt-canvas" width="215" height="330"></canvas>
+    {{--<div class="text-portion"></div>--}}
+    {{--<tshirt-text :message="message"></tshirt-text>--}}
 
-    <div class="edit-box marching-ants marching draggable rotatable" v-show="message">
-        <p class="tshirt-text" style="font-size:100%; color:black;">@{{ message }}</p>
-        <div class="handle drag"></div>
-        <div class="handle rotate"></div>
-        <div class="handle scale"></div>
-        <div class="handle delete"></div>
-    </div>
+    {{--<div class="edit-box marching-ants marching draggable rotatable" v-show="message">--}}
+        {{--<p class="tshirt-text" style="font-size:100%; color:black;">@{{ message }}</p>--}}
+        {{--<div class="handle drag"></div>--}}
+        {{--<div class="handle rotate"></div>--}}
+        {{--<div class="handle scale"></div>--}}
+        {{--<div class="handle delete"></div>--}}
+    {{--</div>--}}
 
     <div class="printable-area-toolbar"
          style="background-color: rgba(0, 0, 0, 0.3) !important; color: rgb(255, 255, 255) !important;">

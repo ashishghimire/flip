@@ -1,0 +1,2891 @@
+@font-face {
+    font-family: "Kleptocracy";
+    src: url("../fonts/Kleptocracy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "basic title font";
+    src: url("../fonts/basictitlefont.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Wunderbar";
+    src: url("../fonts/Wunderbar.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Air";
+    src: url("../fonts/Air.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Radio Stars";
+    src: url("../fonts/RadioStars.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Brady Bunch";
+    src: url("../fonts/BradyBunch.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Speedline MF";
+    src: url("../fonts/SpeedlineMF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Movie Poster";
+    src: url("../fonts/SFMoviePosterBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Abscissa";
+    src: url("../fonts/AbscissaBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SamdanCondensed";
+    src: url("../fonts/SamdanCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("../fonts/YanoneKaffeesatz-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Speakeasy";
+    src: url("../fonts/SFSpeakeasy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rothwell";
+    src: url("../fonts/Rothwell.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cheri";
+    src: url("../fonts/Cheri.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Cartoonist Hand";
+    src: url("../fonts/SFCartoonistHand.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Primer Print";
+    src: url("../fonts/PrimerPrint-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films Oblique";
+    src: url("../fonts/TallFilmsOblique.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yellowjacket Condensed";
+    src: url("../fonts/YellowjacketCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Niobium";
+    src: url("../fonts/Niobium.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Nights";
+    src: url("../fonts/GothamNightsNormal.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("../fonts/YanoneKaffeesatz-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blue Highway Condensed";
+    src: url("../fonts/BlueHighwayCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aliquam";
+    src: url("../fonts/Aliquam-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bloody";
+    src: url("../fonts/Bloody.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Unrealised";
+    src: url("../fonts/Unrealised.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Xray Ted";
+    src: url("../fonts/XrayTed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Juggernaut Condensed";
+    src: url("../fonts/SFJuggernautCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NFS font";
+    src: url("../fonts/NFSfont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Distortion Of The Brain And Mind";
+    src: url("../fonts/Distortion-Of-The-Brain-And-Mind.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "King Richard";
+    src: url("../fonts/KingRichard.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url("../fonts/Corbel-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NHL Ducks";
+    src: url("../fonts/NHLDucks.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Book Commando Condensed";
+    src: url("../fonts/ComicBookCommandoCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stentiga";
+    src: url("../fonts/Stentiga.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Grunge Sans";
+    src: url("../fonts/SFGrungeSans-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "BabelSans";
+    src: url("../fonts/BabelSans-Oblique.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zephyrean BRK";
+    src: url("../fonts/ZephyreanBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yonder (BRK)";
+    src: url("../fonts/YonderBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Atomic";
+    src: url("../fonts/Atomic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Waukegan LDO";
+    src: url("../fonts/WaukeganLDOBlack.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("../fonts/Tahoma.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Chinese Rocks Rg";
+    src: url("../fonts/ChineseRocksRg-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Azrael";
+    src: url("../fonts/Azrael.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Shlop";
+    src: url("../fonts/Shlop.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/Bebas.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Buttacup Lettering";
+    src: url("../fonts/SFButtacupLettering-BoldOblique.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zephyrean Gust BRK";
+    src: url("../fonts/ZephyreanGustBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Krazy Nights";
+    src: url("../fonts/KrazyNights.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aerovias Brasil NF";
+    src: url("../fonts/AeroviasBrasilNF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CreativeBlock BB";
+    src: url("../fonts/CreativeBlockBBBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jedi";
+    src: url("../fonts/JediNormal.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tequila Sunrise";
+    src: url("../fonts/TequilaSunrise-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Clear Line PERSONAL USE ONLY";
+    src: url("../fonts/ClearLine-PERSONALUSEONLY.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Sports Night NS Upright";
+    src: url("../fonts/SFSportsNightNSUpright.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Xray Ted [skew]";
+    src: url("../fonts/XrayTedskew.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DeathRattle BB";
+    src: url("../fonts/DeathRattleBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Foxboro Script";
+    src: url("../fonts/SFFoxboroScript-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sparkler-Demo";
+    src: url("../fonts/Sparkler-Demo.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BankGothic DB";
+    src: url("../fonts/BankGothic-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url("../fonts/BigNoodleTitling-Oblique.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hawkmoon Condensed";
+    src: url("../fonts/HawkmoonCondensedItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Homizio";
+    src: url("../fonts/Homizio-Thin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pricedown Bl";
+    src: url("../fonts/PricedownBl-Regular.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Cartoonist Hand SC";
+    src: url("../fonts/SFCartoonistHandSC-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Freshman";
+    src: url("../fonts/Freshman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BottleRocket BB";
+    src: url("../fonts/BottleRocketBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Soviet";
+    src: url("../fonts/Soviet.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Foxboro Script Extended";
+    src: url("../fonts/SFFoxboroScriptExtended-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Arial";
+    src: url("../fonts/Arial-BoldMT.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Action Man";
+    src: url("../fonts/ActionMan-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Snowstorm Kraft";
+    src: url("../fonts/SnowstormKraft.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Wyld Stallyns";
+    src: url("../fonts/WyldStallynsThin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karmatic Revolution";
+    src: url("../fonts/KarmaticRevolution.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "UltraCondensedSansSerif";
+    src: url("../fonts/UltraCondensedSansSerif.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aaargh";
+    src: url("../fonts/AaarghNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bottix";
+    src: url("../fonts/Bottix.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Impact";
+    src: url("../fonts/Impact.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Zud Juice";
+    src: url("../fonts/ZudJuiceItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Leelawadee UI";
+    src: url("../fonts/LeelawadeeUI-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "11S01 Black Tuesday";
+    src: url("../fonts/11S01BlackTuesdayItalic.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Blacklisted";
+    src: url("../fonts/Blacklisted.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Upheaval TT BRK";
+    src: url("../fonts/UpheavalTTBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Champagne & Limousines";
+    src: url("../fonts/ChampagneLimousines-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Squitcher";
+    src: url("../fonts/Squitcher.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bud Easy";
+    src: url("../fonts/BudEasyMedium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Font";
+    src: url("../fonts/Font.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dimitri";
+    src: url("../fonts/Dimitri.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Grunge Sans SC";
+    src: url("../fonts/SFGrungeSansSC.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vegetable";
+    src: url("../fonts/Vegetable.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BabelSans";
+    src: url("../fonts/BabelSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Magnum";
+    src: url("../fonts/Magnum.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Qirof";
+    src: url("../fonts/Qirof.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Old Republic SC";
+    src: url("../fonts/SFOldRepublicSCBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kata Bidalan";
+    src: url("../fonts/KataBidalanBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bronic";
+    src: url("../fonts/Bronic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Space Frigate";
+    src: url("../fonts/SpaceFrigateItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Brushcut";
+    src: url("../fonts/Brushcut.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Later On";
+    src: url("../fonts/lateron.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Advokat Modern";
+    src: url("../fonts/AdvokatModern.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Unicorn";
+    src: url("../fonts/Unicorn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Speakeasy";
+    src: url("../fonts/SFSpeakeasy-Oblique.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Bombing";
+    src: url("../fonts/Bombing.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/Bebas_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Engebrechtre";
+    src: url("../fonts/Engebrechtre-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GrutchGrotesk";
+    src: url("../fonts/GrutchGrotesk-CondensedLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Foxboro Script";
+    src: url("../fonts/SFFoxboroScript.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Moon Flower";
+    src: url("../fonts/MoonFlowerBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alice and the Wicked Monster";
+    src: url("../fonts/AliceandtheWickedMonster.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url("../fonts/BigNoodleTitling.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Go Long";
+    src: url("../fonts/GoLong.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Chinese Takeaway";
+    src: url("../fonts/ChineseTakeaway.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Xoxoxa";
+    src: url("../fonts/Xoxoxa.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yukarimobile";
+    src: url("../fonts/Yukarimobile.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url("../fonts/Corbel-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url("../fonts/Corbel.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Manga Temple";
+    src: url("../fonts/MangaTemple.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Toontime B";
+    src: url("../fonts/SFToontimeB-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Untidy Italic Skrawl";
+    src: url("../fonts/UntidyItalicSkrawl.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Alexandria";
+    src: url("../fonts/Alexandria.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BastardusSans";
+    src: url("../fonts/BastardusSans.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Farewell";
+    src: url("../fonts/Farewell.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Waukegan LDO";
+    src: url("../fonts/WaukeganLDOBlack-Oblique.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Honey Script";
+    src: url("../fonts/HoneyScript-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "webster";
+    src: url("../fonts/webster.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Belizarius";
+    src: url("../fonts/Belizarius.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CometPositive";
+    src: url("../fonts/CometPositive.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Porn Star Academy";
+    src: url("../fonts/PornStarAcademy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films Fine";
+    src: url("../fonts/TallFilmsFine.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "He's Dead Jim";
+    src: url("../fonts/HesDeadJim.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Grunge Sans";
+    src: url("../fonts/SFGrungeSans-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Criticized";
+    src: url("../fonts/Criticized.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aldo the Apache";
+    src: url("../fonts/AldotheApache.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AnkeHand";
+    src: url("../fonts/AnkeHand.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Twelve Ton Sushi";
+    src: url("../fonts/TwelveTonSushi.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tussle";
+    src: url("../fonts/Tussle.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Willamette";
+    src: url("../fonts/SFWillametteBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Slim Extreme";
+    src: url("../fonts/SlimExtreme.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Steelfish";
+    src: url("../fonts/Steelfish.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Something Strange";
+    src: url("../fonts/SomethingStrange.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AmazObitaemOstrovFine";
+    src: url("../fonts/AmazObitaemOstrovFine.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Overhead BRK";
+    src: url("../fonts/OverheadBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films Expanded Oblique";
+    src: url("../fonts/TallFilmsExpandedOblique.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Espresso Shack";
+    src: url("../fonts/SFEspressoShack-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cartoonist";
+    src: url("../fonts/CartoonistKooky.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Viva Allende";
+    src: url("../fonts/VivaAllende.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "abeatbyKai";
+    src: url("../fonts/AbeatbyKai.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HACKED";
+    src: url("../fonts/HACKED.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Wolf in the City";
+    src: url("../fonts/WolfintheCityLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dael Calligraphy";
+    src: url("../fonts/DaelCalligraphy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GROBOLD";
+    src: url("../fonts/GROBOLD.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Grunge Sans SC";
+    src: url("../fonts/SFGrungeSansSC-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Nerdproof";
+    src: url("../fonts/Nerdproof.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homizio";
+    src: url("../fonts/Homizio-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Deadly Inked";
+    src: url("../fonts/DeadlyInked.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Buran USSR";
+    src: url("../fonts/BuranUSSR.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Sports Night NS";
+    src: url("../fonts/SFSportsNightNS.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "11S01 Black Tuesday";
+    src: url("../fonts/11S01BlackTuesdayItalic_1.ttf") format("truetype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Streamster";
+    src: url("../fonts/Streamster.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Edo";
+    src: url("../fonts/Edo.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Weaver BRK";
+    src: url("../fonts/WeaverBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Fake Plastic";
+    src: url("../fonts/FakePlastic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Autobahn";
+    src: url("../fonts/Autobahn.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DHF Story Brush";
+    src: url("../fonts/DHFStoryBrush.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Crimes Times Six";
+    src: url("../fonts/CrimesTimesSix.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Viking Squad";
+    src: url("../fonts/VikingSquadBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Semibold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kitchen police";
+    src: url("../fonts/Kitchenpolice.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AdineKirnberg-Script";
+    src: url("../fonts/AdineKirnberg-Script.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Telegrafico";
+    src: url("../fonts/Telegrafico.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Year supply of fairy cakes";
+    src: url("../fonts/Yearsupplyoffairycakes.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ATROX";
+    src: url("../fonts/ATROX-normal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blackout";
+    src: url("../fonts/Blackout.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Weltron 2001";
+    src: url("../fonts/Weltron2001.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Libel Suit";
+    src: url("../fonts/LibelSuit-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alien Encounters Solid";
+    src: url("../fonts/AlienEncountersSolidBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Espresso Shack";
+    src: url("../fonts/SFEspressoShack-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ozone Layer";
+    src: url("../fonts/OzoneLayer.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Write Off";
+    src: url("../fonts/WriteOff.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Fundamental Rush";
+    src: url("../fonts/FundamentalRush.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Steelfish";
+    src: url("../fonts/Steelfish-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Adventure";
+    src: url("../fonts/AdventureNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Atarian System";
+    src: url("../fonts/SFAtarianSystem.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SkarpaLT";
+    src: url("../fonts/SkarpaLT.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alien League";
+    src: url("../fonts/AlienLeague.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "nevis";
+    src: url("../fonts/nevis-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Juggernaut Condensed";
+    src: url("../fonts/SFJuggernautCondensedItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "MathematicalPi 1";
+    src: url("../fonts/MathematicalPi-One.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vanadine";
+    src: url("../fonts/Vanadine-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pakenham";
+    src: url("../fonts/Pakenham.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/Verdana-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Visitor TT2 BRK";
+    src: url("../fonts/VisitorTT2BRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dj Courageous";
+    src: url("../fonts/DjCourageous.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Weltron Special Power";
+    src: url("../fonts/WeltronSpecialPower.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Moscoso";
+    src: url("../fonts/Moscoso.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Old Republic SC";
+    src: url("../fonts/SFOldRepublicSCBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Chica Mono";
+    src: url("../fonts/ChicaMono.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homizio";
+    src: url("../fonts/Homizio-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Viking Squad Condensed";
+    src: url("../fonts/VikingSquadCondensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Phantomime";
+    src: url("../fonts/Phantomime.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aileenation";
+    src: url("../fonts/Aileenation.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Moon Flower";
+    src: url("../fonts/MoonFlower.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Coolvetica Rg";
+    src: url("../fonts/CoolveticaRg-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stereo";
+    src: url("../fonts/StereoHifi.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Abscissa";
+    src: url("../fonts/Abscissa.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "REVOLUTION";
+    src: url("../fonts/REVOLUTION.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PanicButton BB";
+    src: url("../fonts/PanicButtonBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Hollywood Hills";
+    src: url("../fonts/SFHollywoodHills-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Schluber";
+    src: url("../fonts/Schluber.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Primer Print";
+    src: url("../fonts/PrimerPrint.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ROCKY AOE";
+    src: url("../fonts/ROCKYAOE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Arch Rival";
+    src: url("../fonts/SFArchRival-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Book Commando";
+    src: url("../fonts/ComicBookCommandoBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "AddJazz";
+    src: url("../fonts/AddJazz.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nickodemus-Extremus";
+    src: url("../fonts/Nickodemus-Extremus.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alien Encounters Solid";
+    src: url("../fonts/AlienEncountersSolid.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Old Republic";
+    src: url("../fonts/SFOldRepublicBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SelznickNormal";
+    src: url("../fonts/SelznickNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../fonts/Verdana.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bolide MF";
+    src: url("../fonts/BolideMF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Armor Piercing 2.0 BB";
+    src: url("../fonts/ArmorPiercing20BB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films";
+    src: url("../fonts/TallFilms.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BRUSHSTRIKE";
+    src: url("../fonts/BRUSHSTRIKE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nirmala UI";
+    src: url("../fonts/NirmalaUI-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Jam Pact";
+    src: url("../fonts/JamPact.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Violation";
+    src: url("../fonts/Violation.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Hollywood Hills";
+    src: url("../fonts/SFHollywoodHills-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hooked Up 101";
+    src: url("../fonts/HookedUp101.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Snowstorm Kraft";
+    src: url("../fonts/SnowstormKraft_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Toontime B";
+    src: url("../fonts/SFToontimeB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Permanent daylight";
+    src: url("../fonts/Permanentdaylight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Long Shot";
+    src: url("../fonts/LongShot.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("../fonts/YanoneKaffeesatz-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sergeant SixPack";
+    src: url("../fonts/SergeantSixPack.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Space Frigate";
+    src: url("../fonts/SpaceFrigate.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Talking to the Moon";
+    src: url("../fonts/TalkingtotheMoon.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Opificio";
+    src: url("../fonts/Opificio.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LeviReBrushed";
+    src: url("../fonts/LeviReBrushed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Benny Blanco";
+    src: url("../fonts/BennyBlanco.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yard Sale";
+    src: url("../fonts/YardSale.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ArtBrush";
+    src: url("../fonts/ArtBrush.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blue Highway D Type";
+    src: url("../fonts/BlueHighwayDType.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films Fine Oblique";
+    src: url("../fonts/TallFilmsFineOblique.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Updike";
+    src: url("../fonts/Updike.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Corbel";
+    src: url("../fonts/Corbel-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "All Caps";
+    src: url("../fonts/AllCaps.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Buran USSR";
+    src: url("../fonts/BuranUSSR_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Timeline";
+    src: url("../fonts/Timeline.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Honest John's";
+    src: url("../fonts/HonestJohns.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Squealer";
+    src: url("../fonts/Squealer.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Atlantic Cruise";
+    src: url("../fonts/AtlanticCruise.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Florencesans";
+    src: url("../fonts/Florencesans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Righteous";
+    src: url("../fonts/Righteous-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kenyan Coffee";
+    src: url("../fonts/KenyanCoffee.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "American Captain";
+    src: url("../fonts/AmericanCaptain.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Battleground";
+    src: url("../fonts/Battleground.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DistrictThin";
+    src: url("../fonts/DistrictThin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Wyld Stallyns";
+    src: url("../fonts/WyldStallynsBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "8-bit Limit (BRK)";
+    src: url("../fonts/8-bitLimitBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mouser";
+    src: url("../fonts/Mouser.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pacifico";
+    src: url("../fonts/Pacifico-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Book Commando";
+    src: url("../fonts/ComicBookCommandoBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Accidental Presidency";
+    src: url("../fonts/AccidentalPresidency.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "A:ggstock";
+    src: url("../fonts/ggstock.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SquareFont";
+    src: url("../fonts/SquareFont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Harabara";
+    src: url("../fonts/Harabara.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Andover";
+    src: url("../fonts/Andover.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "PanicButton BB";
+    src: url("../fonts/PanicButtonBB-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Kravitz Extra Thermal";
+    src: url("../fonts/KravitzExtraThermal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Movie Poster";
+    src: url("../fonts/SFMoviePosterBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Armor Piercing";
+    src: url("../fonts/ArmorPiercing.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pricedown";
+    src: url("../fonts/Pricedown.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IRON MAN OF WAR 002 NCV";
+    src: url("../fonts/IRONMANOFWAR002NCV.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ZITZ";
+    src: url("../fonts/ZITZ.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blue Highway";
+    src: url("../fonts/BlueHighway-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "DK Face Your Fears";
+    src: url("../fonts/DKFaceYourFears.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Medrano";
+    src: url("../fonts/Medrano.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF New Republic";
+    src: url("../fonts/SFNewRepublic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Laundromatic";
+    src: url("../fonts/SFLaundromatic-BoldOblique.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Lucid Type A (BRK)";
+    src: url("../fonts/LucidTypeABRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gadugi";
+    src: url("../fonts/Gadugi-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Grunge Sans";
+    src: url("../fonts/SFGrungeSans-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Operational Amplifier";
+    src: url("../fonts/OperationalAmplifier.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Abberancy";
+    src: url("../fonts/Abberancy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Archery Black Condensed";
+    src: url("../fonts/ArcheryBlackCondensed.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Polo Brush MF";
+    src: url("../fonts/PoloBrushMF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Copper Canyon WBW";
+    src: url("../fonts/CopperCanyonWBW.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bobcaygeon Plain BRK";
+    src: url("../fonts/BobcaygeonPlainBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homizio";
+    src: url("../fonts/Homizio-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pussycat";
+    src: url("../fonts/PussycatSassy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Comic Book";
+    src: url("../fonts/ComicBookNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Dark And Handsome";
+    src: url("../fonts/TallDarkAndHandsome-Condensed.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kirsty";
+    src: url("../fonts/Kirsty.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Collegiate Solid";
+    src: url("../fonts/SFCollegiateSolid.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Opificio";
+    src: url("../fonts/Opificio-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Hursheys";
+    src: url("../fonts/Hursheys.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Segoe UI";
+    src: url("../fonts/SegoeUI-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Headline One";
+    src: url("../fonts/HeadlineOneHPLHS.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "TOMMY HILFIGER AF";
+    src: url("../fonts/TOMMYHILFIGERAF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FORQUE";
+    src: url("../fonts/FORQUE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Oliver'sBarney";
+    src: url("../fonts/OliversBarney.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BottleRocket BB";
+    src: url("../fonts/BottleRocketBBBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Iron Gothic";
+    src: url("../fonts/SFIronGothic-BoldOblique.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "CometNegative";
+    src: url("../fonts/CometNegative.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Buttacup Lettering";
+    src: url("../fonts/SFButtacupLettering.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Willamette";
+    src: url("../fonts/SFWillametteBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "CreativeBlock BB";
+    src: url("../fonts/CreativeBlockBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BabelSans";
+    src: url("../fonts/BabelSans-BoldOblique.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Zelda DX TT BRK";
+    src: url("../fonts/ZeldaDXTTBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nirmala UI";
+    src: url("../fonts/NirmalaUI.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tapeworm";
+    src: url("../fonts/Tapeworm.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lovesick AOE";
+    src: url("../fonts/LovesickAOE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alpha";
+    src: url("../fonts/AlphaThin.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helsinki";
+    src: url("../fonts/Helsinki.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alien Encounters Solid";
+    src: url("../fonts/AlienEncountersSolidItalic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Laser Rod";
+    src: url("../fonts/LaserRodNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blue Highway";
+    src: url("../fonts/BlueHighway.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Loki Cola";
+    src: url("../fonts/LokiCola.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yesterdays meal";
+    src: url("../fonts/Yesterdaysmeal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ChickenScratch AOE";
+    src: url("../fonts/ChickenScratchAOE.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "COUTURE";
+    src: url("../fonts/COUTURE-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Friday13";
+    src: url("../fonts/Friday13.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BN Machine";
+    src: url("../fonts/BNMachine.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Chinese Rocks";
+    src: url("../fonts/ChineseRocks.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Slimania";
+    src: url("../fonts/SlimaniaBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minecraftia";
+    src: url("../fonts/Minecraftia-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Pussycat";
+    src: url("../fonts/PussycatSnickers.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bubbleboy";
+    src: url("../fonts/Bubbleboy.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Land Speed Record";
+    src: url("../fonts/LandSpeedRecord.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "November";
+    src: url("../fonts/November.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BadaBoom BB";
+    src: url("../fonts/BadaBoomBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LetterOMatic!";
+    src: url("../fonts/LetterOMaticBold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Yanone Kaffeesatz";
+    src: url("../fonts/YanoneKaffeesatz-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ObelixPro";
+    src: url("../fonts/ObelixPro-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "LT Oksana";
+    src: url("../fonts/LTOksana-Bold.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Slender BRK";
+    src: url("../fonts/SlenderBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Annifont";
+    src: url("../fonts/Annifont.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Dark Ministry";
+    src: url("../fonts/DarkMinistry.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Backpack Personal Use";
+    src: url("../fonts/BackpackPersonalUse.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BabelSans";
+    src: url("../fonts/BabelSans.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BankGothic";
+    src: url("../fonts/BankGothic-Regular_1.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aliquam";
+    src: url("../fonts/Aliquam.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url("../fonts/Bebas_2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Buttacup Lettering";
+    src: url("../fonts/SFButtacupLettering-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vantage BRK";
+    src: url("../fonts/VantageBRK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Wet Paint MF";
+    src: url("../fonts/WetPaintMF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Waltograph UI";
+    src: url("../fonts/WaltographUI-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bauer";
+    src: url("../fonts/Bauer.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "True Lies";
+    src: url("../fonts/TrueLies.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Char BB";
+    src: url("../fonts/CharBB.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Seriously";
+    src: url("../fonts/Seriously.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Action Force";
+    src: url("../fonts/ActionForceNormal.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monotoon KK";
+    src: url("../fonts/MonotoonKK.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MankSans";
+    src: url("../fonts/MankSans-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Korner Deli NF";
+    src: url("../fonts/KornerDeliNF.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Colors Of Autumn";
+    src: url("../fonts/ColorsOfAutumn.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("../fonts/Ubuntu-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SF Willamette";
+    src: url("../fonts/SFWillamette.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Rational Integer";
+    src: url("../fonts/RationalInteger.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Alien Encounters Solid";
+    src: url("../fonts/AlienEncountersSolidBoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Boston Traffic";
+    src: url("../fonts/BostonTraffic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tall Films Expanded";
+    src: url("../fonts/TallFilmsExpanded.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Raphael";
+    src: url("../fonts/Raphael.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Aliquam";
+    src: url("../fonts/Aliquam-UltralightItalic.ttf") format("truetype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Aliquam";
+    src: url("../fonts/Aliquam-UltraLight.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lithos Pro";
+    src: url("../fonts/LithosPro-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diavlo";
+    src: url("../fonts/DiavloBlack-Regular.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "dearJoe 5 CASUAL";
+    src: url("../fonts/DearJoe5CASUAL.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url("../fonts/SourceSansPro-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "";
+    src: url("../fonts/AdobeGothicStd-Bold-Alphabetic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diavlo";
+    src: url("../fonts/DiavloBold-Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Blacksword";
+    src: url("../fonts/Blacksword.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bombardier";
+    src: url("../fonts/Bombardier.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: url("../fonts/Delicious-Roman.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url("../fonts/QuicksandBold-Regular.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Code";
+    src: url("../fonts/Code-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: url("../fonts/Delicious-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "advent";
+    src: url("../fonts/advent-Lt1.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Glasket";
+    src: url("../fonts/Glasket-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Existence";
+    src: url("../fonts/Existence-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Myriad Pro";
+    src: url("../fonts/MyriadPro-BoldCond.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Molot";
+    src: url("../fonts/Molot.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Code";
+    src: url("../fonts/Code-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diavlo";
+    src: url("../fonts/DiavloMedium-Regular.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poplar Std";
+    src: url("../fonts/PoplarStd.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avengeance Mightiest Avenger";
+    src: url("../fonts/AvengeanceMightiestAvenger.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: url("../fonts/Delicious-Heavy.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Neou";
+    src: url("../fonts/Neou-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homizio Nova";
+    src: url("../fonts/HomizioNova.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Couture";
+    src: url("../fonts/Couture-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url("../fonts/Exo-Black.ttf") format("truetype");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cartwheel";
+    src: url("../fonts/Cartwheel.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diavlo";
+    src: url("../fonts/DiavloLight-Regular.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GabbaAllCaps";
+    src: url("../fonts/GabbaAllCaps-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Exo";
+    src: url("../fonts/Exo-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("../fonts/BebasNeue.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vegur";
+    src: url("../fonts/Vegur-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "RawengulkSans";
+    src: url("../fonts/RawengulkSans.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Homizio Nova";
+    src: url("../fonts/HomizioNova-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NOVA";
+    src: url("../fonts/NOVAegular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mikado Bold DEMO";
+    src: url("../fonts/MikadoBoldDEMO.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: url("../fonts/Delicious-Italic.ttf") format("truetype");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Dark Waters";
+    src: url("../fonts/DarkWaters-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ancillary";
+    src: url("../fonts/Ancillary-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Penna";
+    src: url("../fonts/Penna.ttf") format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: url("../fonts/Delicious-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bebas Kai";
+    src: url("../fonts/BebasKai.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "advent";
+    src: url("../fonts/advent-Lt3.ttf") format("truetype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Diavlo Book";
+    src: url("../fonts/DiavloBook-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Lobster 1.4";
+    src: url("../fonts/Lobster14.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "advent";
+    src: url("../fonts/advent-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Vegur";
+    src: url("../fonts/Vegur-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Anabelle Script";
+    src: url("../fonts/AnabelleScriptLight.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Waltograph";
+    src: url("../fonts/Waltograph.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+

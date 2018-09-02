@@ -5,12 +5,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/colorPick.css') }}" rel="stylesheet">
     <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fonts.css') }}" rel="stylesheet">
     <script src="{{ asset('js/jquery-3.3.1.js') }}"></script>
     <script src="{{ asset('js/jquery-ui.js') }}"></script>
     <script src="{{ asset('js/jquery.ui.rotatable.js') }}"></script>
     <script src="{{ asset('js/bootstrap.js') }}"></script>
-    <script src="{{ asset('js/vue.js') }}"></script>
+    {{--<script src="{{ asset('js/vue.js') }}"></script>--}}
+    <script src="{{ asset('js/fabric.js') }}"></script>
+    <script src="{{ asset('js/fabric-custom.js') }}"></script>
+    <script src="{{ asset('js/colorPick.js') }}"></script>
+    <script src="{{ asset('js/fontfaceobserver.js') }}"></script>
 </head>
 <body>
 <div id="resizable" class="ui-widget-content">
